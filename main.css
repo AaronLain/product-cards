@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: white;
     color: #444444
 }
 
@@ -27,27 +27,56 @@ li a:hover {
 
 img {
     height: 268px;
-    margin: 0 auto;
+    width: 268px;
 }
 
+main {
+    display: flex;
+    justify-content: flex-start;
+}
+h2 {
+    text-align: center;
+}
+.Egg {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    
+}
 
 .cardhead {
     font-family: cursive;
     background-color: mediumorchid;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid #333;
-    border-radius: 2px;
-    width: 28%;
-    padding: 1px;
-    text-align: center;
-    background-color: white;
+    border: 1px solid lightblue;
+    flex: 0 0 30.3%
+    box-shadow: 2px 2px black;
+    margin: 20px;
+    align-content: center;
 }
 
+.card p {
+    text-align: justify;
+    width: 268px;
+    padding: 20px;
+}
 .availability {
-    background-color: orange;
-    color: yellowgreen;
-    height: 50px;
+    background-color: #333;
+    color: yellow;
+    height: 30px;
+    text-align: center;
+    padding: 0em;
+}
+
+.specs {
+    color: #222
+    height: 10px;
+    padding: 20px;
+}
+
+.dimensions {
+    color: #333
+    padding: 0px;
+    text-align: center;
 }
