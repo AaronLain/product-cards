@@ -1,0 +1,53 @@
+body {
+    background-color: aliceblue;
+    color: #444444
+}
+
+.nav-list {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    }
+
+li {
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    display: block;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: red;
+}
+
+img {
+    height: 268px;
+    margin: 0 auto;
+}
+
+
+.cardhead {
+    font-family: cursive;
+    background-color: mediumorchid;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #333;
+    border-radius: 2px;
+    width: 28%;
+    padding: 1px;
+    text-align: center;
+    background-color: white;
+}
+
+.availability {
+    background-color: orange;
+    color: yellowgreen;
+    height: 50px;
+}
