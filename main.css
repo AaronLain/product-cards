@@ -43,12 +43,25 @@ h2 {
 .Egg {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     flex-grow: 1;
+    z-index: 0;
+}
+
+.sold-out img {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    position: absolute;
+    padding-left: 54.5em;
+    padding-top: 6em;
+    width: 22em;
+
 }
 
 .cardhead {
     background-color: mediumorchid;
+    height: 4em;
 }
 .card {
     border: 1px solid lightblue;
