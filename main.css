@@ -49,24 +49,28 @@ h2 {
 }
 
 .sold-out img {
-    display: flex;
-    justify-content: flex-end;
     z-index: 2;
     position: absolute;
-    padding-left: 54.5em;
-    padding-top: 6em;
     width: 22em;
-
+    padding-top: 4.7em;
 }
+
+.sold-out {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
 
 .cardhead {
     background-color: mediumorchid;
     height: 4em;
+    text-align: center;
+    padding-top: .2em;
 }
 .card {
     border: 1px solid lightblue;
     flex: 0 0 28.3%;
-    box-shadow: 2px 2px black;
+    box-shadow: 4px 4px black;
     margin: 13px 13px;
     text-align: center;
 }
